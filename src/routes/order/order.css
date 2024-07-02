@@ -1,0 +1,107 @@
+.order,
+.order-success {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-raleway);
+}
+
+.order {
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.order h2,
+.order-success h2 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.order-success {
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.order-success h2 {
+    font-size: 2rem;
+}
+
+.order-success h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.print,
+.exit-order {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: max-content;
+    height: 3.25rem;
+    font-family: var(--font-raleway);
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.print {
+    color: var(--c-white);
+    border: none;
+    background-color: var(--c-primary);
+}
+
+.exit-order {
+    color: gray;
+    border: none;
+    opacity: 0.8;
+}
+
+.order-details,
+.items-ordered {
+    list-style: none;
+}
+
+.confirmation-dialog-inner .buttons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: max-content;
+    color: var(--c-white);
+    border: none;
+    font-family: var(--font-raleway);
+    font-weight: 600;
+    cursor: pointer;
+    background-color: var(--c-primary);
+}
+
+.confirmation-dialog {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.693);
+    backdrop-filter: blur(2px);
+    height: 100vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmation-dialog-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    padding: 2rem;
+}
+
+.confirmation-dialog-inner h3 {
+    font-weight: 400;
+}

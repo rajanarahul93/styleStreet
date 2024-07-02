@@ -1,0 +1,61 @@
+# Node modules directory
+node_modules/
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# dotenv environment variables file
+.env
+
+# Build output directories
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# TypeScript build info files
+*.tsbuildinfo
+
+# Coverage directory used by testing tools
+coverage/
+
+# Parcel cache
+.cache/
+.parcel-cache/
+
+# Storybook build outputs
+.out/
+
+# API testing environments
+.env.local
+.env.*.local
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Output of 'npm pack'
+*.tgz
+
+# Output of 'yarn pack'
+*.tgz
+
+# Lint/formatting
+.eslintcache
+.stylelintcache
+
+# Browserslist cache
+.browserslistrc
